@@ -1,15 +1,15 @@
 # Grading Rubic
-The students were asked to write a paragraph with the some requirements.
+The students were asked to write a paragraph with some requirements.
 
-In the paragraph, students should inlcudes:
+In the paragraph, students should include:
 
-1. five different valid integers -- 4 points each. No more than 20 points
-2. five different valid  decimals -- 4 points each. No more than 20 points
-3. five different valid emails address -- 4 points each. No more than 20 points
-4. five different valid price -- 4 points each. No more than 20 points
-5. five different valide phone number -- 4 points each. No more than 20 points
+1. Five different valid integers -- 4 points each. No more than 20 points (Do not count those included in the email)
+2. Five different valid email
+3. addresses -- 4 points each. No more than 20 points
+4. Five different valid prices -- 4 points each. No more than 20 points
+5. Five different valid phone numbers -- 4 points each. No more than 20 points
 
-For example: a studnet has 6 integers, 0 real numbers, 1 email addresses, 2 prices, 10 phone numbers.
+For example: a studnet has 6 integers, 1 email addresses, 2 prices, 10 phone numbers.
 His grade should be 20 + 0 + 4 + 4*2 + 20 = 52
 
 ## Hints:
