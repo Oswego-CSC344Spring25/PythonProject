@@ -13,17 +13,6 @@ hello
 1.678943578976543
 3.1415926
 
-1189 Beall Avenue
-123 S. Main St.
-456 Elm Ter.
-88 Morning Sun
-
-Eight fifty two North Washington
-10 10 Springfield Lane
-14.5 S Main
-12 S.Main
-123 main street
-
 $1
 $20
 $1.99
