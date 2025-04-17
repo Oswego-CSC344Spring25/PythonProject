@@ -17,7 +17,7 @@ The grading rubic is listed [here](grading_rubic.md).
 # Report
 1. Create a report_student_i.html (replacing i with the student ID number) file for each student, which contains (in reasonably formatted, valid HTML):
    - the name of the student's submission(linked to the file itself)
-   - the different integers, decimals, addresses, prices, phone numbers in the student's submission (list each category  separately)
+   - the different integers, decimals, email addresses, prices, phone numbers in the student's submission (list each category  separately)
    - the total scores of the submission
 2. Create a valid HTML web page called index.html with links to each of the summary files;
 3. Create a tar.gz file containing the directory [submissions](submissions) and the directory that contains all the HTML files you created above. Be sure the links in the webpages work after extraction.
