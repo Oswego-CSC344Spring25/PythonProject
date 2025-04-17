@@ -3,13 +3,13 @@ The students were asked to write a document with some requirements.
 
  Students should include:
 
-1. Five different valid integers -- 4 points each. No more than 20 points (Do not count those in addresses,prices, and phone numbers)
+1. Five different valid integers -- 4 points each. No more than 20 points (Do not count those in email addresses, prices, and phone numbers)
 2. Five different decimal numbers -- 4 points each. No more than 20 points (Do not count those in prices)
-3. Five different addresses -- 4 points each. No more than 20 points
+3. Five different email addresses -- 4 points each. No more than 20 points
 4. Five different valid prices -- 4 points each. No more than 20 points
 5. Five different valid phone numbers -- 4 points each. No more than 20 points
 
-For example, a student has 6 integers,0 double numbers, 1 address, 2 prices, and 10 phone numbers.
+For example, a student has 6 integers,0 double numbers, 1 email address, 2 prices, and 10 phone numbers.
 His grade should be 20 + 0 + 4 + 4*2 + 20 = 52
 
 ## Hints:
@@ -31,7 +31,7 @@ nine
 3.4
 hello
 2.5.7
-Integers that are included in the addresses, prices, and phone numbers.
+Integers that are included in the email addresses, prices, and phone numbers.
 ```
 ## Decimals
 The decimals have a whole number and a fractional part separated by a decimal point.
@@ -50,26 +50,30 @@ The following are not valid decimals:
 4.9.8
 decimals in prices
 ```
-## Address
-The valid addresses begin with a positive integer and are followed by 
-one or more words or abbreviations. The words or abbreviations must consist of only 
-Letters from the English alphabet may only contain a capital letter as the first letter, 
-and may or may not end in a period
+## Email address
+Capturing all the rules for what makes a valid email address is complex,
+so we will use a simplified definition of a valid email address. 
+This definition generally works just fine for extracting email addresses from documents.
 
-The following are valid addresses:
+The first part of the email address is the username portion, 
+and it must not contain whitespace or the @ symbol. 
+The username portion is followed by the @ symbol. 
+After the @ symbol is the domain, which does not contain any whitespace or the @ symbol. 
+The domain contains two or more non-empty components which are separated by periods. 
+The final component must consist of only letters from the English alphabet.
+The following are valid email addresses:
 ```
-1189 Beall Avenue
-123 S. Main St.
-456 Elm Ter.
-88 Morning Sun
+nsommer@wooster.edu
+n.sommer@cs.wooster.edu
+yippee_skippy@yee-haw.wheeeee
+fun-times@Taylor.hall.wooster.edu
 ```
-The following are not valid addresses:
+The following are not valid email addresses:
 ```
-Eight fifty-two North Washington
-10 10 Springfield Lane
-14.5 S Main
-12 S.Main
-123 main street
+n@sommer@wooster.edu
+n sommer@wooster.edu
+nsommer@wooster..edu
+nsommer@wooster.edu-org
 ```
 ## Price
 Here, a valid price is a numeric value using the US dollar sign. 
